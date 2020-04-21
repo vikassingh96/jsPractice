@@ -41,7 +41,7 @@ var lastName = prompt('What is his last name?');
 console.log(firstName + ' ' + lastName);
 */
  
-/* Basic Operators */
+/* Basic Operators 
 
 var year, yearVikas, yearSingh;
 year = 2020;
@@ -68,5 +68,20 @@ console.log(typeof 'vikas is older then singh' );
 var x;
 console.log(typeof x);
 
+*/
+
+/* Operator precedence **/
+
+var now = 2020;
+var yearVikas = 1995;
+var fullAge = 25;
+
+var isfullAge = now - yearVikas >= fullAge;
+console.log(isfullAge);
+
+var yearVikas = 25;
+var yearSingh = 23;
+var average = (yearSingh + yearVikas) / 2;
+console.log(average);
 
 
