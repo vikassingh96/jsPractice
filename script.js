@@ -14,8 +14,8 @@ console.log(fullAge);
 
 */
   
-/* Variables mutation and type coercion
- */
+/* *****Variables mutation and type coercion
+ 
 
 var firstName = 'vikas';
 var Age = '23';
@@ -39,4 +39,34 @@ alert(firstName + ' is a ' + Age + ' year old ' + job + ' is he engaged ? ' + is
 
 var lastName = prompt('What is his last name?');
 console.log(firstName + ' ' + lastName);
+*/
+ 
+/* Basic Operators */
+
+var year, yearVikas, yearSingh;
+year = 2020;
+ageVikas = 23;
+ageSingh = 25;
+
+// Math operators
+yearVikas = year - ageVikas;
+yearSingh = year - ageSingh;
+
+console.log(yearSingh);
+console.log(year * 2);
+console.log(year + 4);
+
+// Logical operators
+var vikasOlder = yearVikas > yearSingh;
+console.log(vikasOlder );
+
+//typeof operators
+
+console.log(typeof vikasOlder);
+console.log(typeof ageSingh);
+console.log(typeof 'vikas is older then singh' );
+var x;
+console.log(typeof x);
+
+
 
