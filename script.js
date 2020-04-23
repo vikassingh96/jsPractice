@@ -1,4 +1,5 @@
-/********variables and data types
+/**********************************
+ * variables and data types
 
 // strings
 var firstName = 'vikas';
@@ -14,7 +15,8 @@ console.log(fullAge);
 
 */
   
-/* *****Variables mutation and type coercion
+/* *************************************
+Variables mutation and type coercion
  
 
 var firstName = 'vikas';
@@ -41,7 +43,8 @@ var lastName = prompt('What is his last name?');
 console.log(firstName + ' ' + lastName);
 */
  
-/* Basic Operators 
+/***************************** 
+Basic Operators 
 
 var year, yearVikas, yearSingh;
 year = 2020;
@@ -70,18 +73,37 @@ console.log(typeof x);
 
 */
 
-/* Operator precedence **/
+/* **********************************
+****Operator precedence 
 
 var now = 2020;
 var yearVikas = 1995;
 var fullAge = 25;
 
+//Multiple operators
 var isfullAge = now - yearVikas >= fullAge;
 console.log(isfullAge);
 
+//Grouping
 var yearVikas = 25;
 var yearSingh = 23;
 var average = (yearSingh + yearVikas) / 2;
-console.log(average);
+console.log(average);  
+
+**/
+
+/*************************************
+ * If / else statements
+ * 
+ */
+
+ var firstName = 'vikas';
+ var civilStatus = 'married';
+
+ if (civilStatus === 'married') {
+     console.log(firstName + ' ' + 'is a married person');
+ } else {
+     console.log( firstName + ' ' + 'is a single person');
+ }
 
 
