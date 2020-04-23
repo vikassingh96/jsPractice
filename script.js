@@ -141,7 +141,7 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 
 5. Like before, change the scores to generate different winners, keeping in mind there might be draws.
 
-  //solution*/
+  //solution
 
 var teamJohn = (89 + 120 + 103)/ 3;
 var teamMike = (116 + 94 + 123)/ 3;
@@ -156,3 +156,12 @@ if (teamJohn > teamMike && teamJohn > teamMary) {
 } else { 
     console.log(' match is draw ');
 }
+*/
+/**/ 
+function calculateAge(birthYear) {
+    return 2020 - birthYear;
+}
+
+var ageVikas = calculateAge(1995);
+console.log(ageVikas);
+
