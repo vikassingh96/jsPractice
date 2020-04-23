@@ -95,7 +95,6 @@ console.log(average);
 /*************************************
  * If / else statements
  * 
- */
 
  var firstName = 'vikas';
  var civilStatus = 'married';
@@ -105,5 +104,23 @@ console.log(average);
  } else {
      console.log( firstName + ' ' + 'is a single person');
  }
+*/
 
+/************************************
+ * Boolean logic
+ */
+
+var firstName = 'vikas';
+var age = 20;
+
+if (age < 13) {
+    console.log(firstName + ' ' + 'is a young boy');
+} else if (age >= 13 && age < 20){
+    console.log(firstName + ' ' + 'is a boy');
+} else if (age >= 20 && age < 30){
+    console.log(firstName + ' ' + 'is a adult');
+} else {
+    console.log (firstName + ' ' + 'is a men');
+}
+ 
 
