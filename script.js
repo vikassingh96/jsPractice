@@ -157,11 +157,43 @@ if (teamJohn > teamMike && teamJohn > teamMary) {
     console.log(' match is draw ');
 }
 */
-/**/ 
+/*
 function calculateAge(birthYear) {
     return 2020 - birthYear;
 }
 
 var ageVikas = calculateAge(1995);
 console.log(ageVikas);
+*/  
+/*
 
+function calculateSquare(lenth, width){
+    return lenth * width;
+}
+
+var Square = calculateSquare(10, 20);
+console.log(Square);
+var rectangle = calculateSquare(15, 4);
+console.log(rectangle);
+*/
+
+/********************************************************* */  
+
+// conditonal operators example
+var myAccountBalance = 300;
+var nikeShoes = 799.33;
+var coupon = 500;
+
+if (nikeShoes <= myAccountBalance) {
+    //myAccountBalance = myAccountBalance - nikeShoes; (/here below line is of same mean as this line/)
+    myAccountBalance -= nikeShoes;
+    console.log('we just bought pair of shoes' + myAccountBalance);
+    
+}else if (nikeShoes - coupon <= myAccountBalance) {
+    myAccountBalance -= nikeShoes - coupon;
+    console.log("We just bought nike shoes with coupon" + " " + 'and the remaining balance is ' + myAccountBalance);
+    
+
+}else {
+    console.log('issufficient balance'); 
+}
